@@ -12,7 +12,7 @@
 
 下面是天猫的购物车页面，上面半部分是一个cell（已选购商品），下面半部分是两个cell（推荐商品）并列。
 
-![image.png](http://upload-images.jianshu.io/upload_images/2409226-db34fb95df469857.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://github.com/JixinZhang/ZShoppingCart/blob/master/Images/TmallShoppingCart1.png)
 
 
 ******************
@@ -195,18 +195,18 @@
 
 ####6) 结果展示
 
-![ShoppingCart collectionView](https://upload-images.jianshu.io/upload_images/2409226-1cb7604825a93ab8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![ShoppingCart collectionView](https://github.com/JixinZhang/ZShoppingCart/blob/master/Images/TmallShoppingCart2.png)
 
 ##二、UITablviewView实现
 
 最开始以为无法用UITableView实现，后来看到Tmall的购物车的cell可以左滑删除，就判定Tmall时用UITableView实现的，所以后用Reveal看了Tmall的购物车的View结构，如下：
 
 
-![TmallCart.png](http://upload-images.jianshu.io/upload_images/2409226-2fb4300e11b8fd99.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![TmallCart.png](https://github.com/JixinZhang/ZShoppingCart/blob/master/Images/TmallShoppingCart3.png)
 
 ###天猫购物车页面UI结构图
 
-![TmallCartViews.png](http://upload-images.jianshu.io/upload_images/2409226-e6adbbf05a3404b7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![TmallCartViews.png](https://github.com/JixinZhang/ZShoppingCart/blob/master/Images/TmallShoppingCart4.png)
 
 ```
 1. 购物车列表：AliCartTabelView;
@@ -246,7 +246,7 @@ for (NSInteger idx = 0; idx < recommendArray.count; idx++) {
 
 ####3) 结果展示
 
-![ShoppingCart TableView](https://upload-images.jianshu.io/upload_images/2409226-57a0ade237885c03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![ShoppingCart TableView](https://github.com/JixinZhang/ZShoppingCart/blob/master/Images/TmallShoppingCart4.png)
 
 
 
