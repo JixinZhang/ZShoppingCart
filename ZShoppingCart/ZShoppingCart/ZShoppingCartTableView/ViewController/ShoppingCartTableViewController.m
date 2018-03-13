@@ -161,6 +161,4 @@ static NSString *recommendIdentifier = @"Recommend";
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
-//- (BOOL)tablecan
-
 @end

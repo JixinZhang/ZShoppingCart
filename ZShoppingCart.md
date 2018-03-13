@@ -1,5 +1,3 @@
-# ZShoppingCart
-
 最近业务上需要完成一个购物车，其页面的UI和天猫、淘宝类似。
 
 [GitHub传送门](https://github.com/JixinZhang/ZShoppingCart)
@@ -247,6 +245,5 @@ for (NSInteger idx = 0; idx < recommendArray.count; idx++) {
 ####3) 结果展示
 
 ![ShoppingCart TableView](https://upload-images.jianshu.io/upload_images/2409226-57a0ade237885c03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 
 

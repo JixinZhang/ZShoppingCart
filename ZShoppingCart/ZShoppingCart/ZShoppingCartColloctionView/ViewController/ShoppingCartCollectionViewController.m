@@ -148,15 +148,15 @@ static NSString * const reuseIdentifierHeader = @"Header";
     //如果购物车为空，section0只有一个值
     CGFloat commoityHeight = kCommodityHeight;
     commodityCount = commodityCount;
-    
+    //section0的全部高度
     CGFloat section1Height = (commodityCount * (commoityHeight + layout.commodityLineSpacing)) + layout.commodityLineSpacing + layout.recommendLineSpacing;
+    
+    //section1的全部高度
     CGFloat section2Height = 0;
     if (recommendCount) {
         section2Height = kHeaderHeight + layout.recommendLineSpacing + (ceilf(recommendCount/self.cellNumerPerRow) * (kRecommendHeight + layout.recommendLineSpacing));
     }
     height = baseY + section1Height + section2Height;
-    //        height = baseY + (commodityCount * (kCommodityHeight + layout.commodityLineSpacing)) + layout.commodityLineSpacing + layout.recommendLineSpacing + kHeaderHeight + layout.recommendLineSpacing + (ceilf(recommendCount/self.cellNumerPerRow) * (kRecommendHeight + layout.recommendLineSpacing));
-    
     CGSize size = CGSizeMake(KScreenWidth, height);
     return size;
 }

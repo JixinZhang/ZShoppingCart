@@ -36,7 +36,7 @@
  计算Header或者Footer的CGRect
  
  @param layout ZShoppingCartLayout.
- @param elementKind A string that identifies the type of the supplementary view.
+ @param elementKind a string that identifies the type of the supplementary view.
  @param indexPath The index path of the supplementary view.
  @return current supplementary view's rect.
  */
